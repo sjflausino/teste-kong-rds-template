@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "teste-kong-rds-template"
+  annotations:
+    github.com/project-slug: sjflausino/teste-kong-rds-template
+    github.com/workflows: kong.yml
+    backstage.io/techdocs-ref: dir:.
+    vault.io/secrets-path: devportal
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
